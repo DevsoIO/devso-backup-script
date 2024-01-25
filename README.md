@@ -22,10 +22,14 @@ to Datadog.
 # Installation
 In order to install the script you can git clone
 the repository at https://github.com/DevsoIO/devso-backup-script
-and then cd into the directory and run the command:
+and then cd into the directory and run the following commands:
 
 ```shell
-pip install -r requirements.txt
+pip3 install mysql-connector-python
+pip3 install AES
+pip3 install pycryptodome
+pip3 install boto3
+pip3 install datadog
 ```
 
 How the script is started is up to you, but scheduled
