@@ -1,0 +1,22 @@
+[database]
+server=localhost
+username=backup
+password=
+
+[backup_settings]
+backup_dir = backup
+encryption_key =
+upload_prefix =
+
+[cloudflare_r2]
+api_endpoint = h
+access_key_id =
+secret_access_key =
+region_name =
+bucket_name =
+
+[datadog]
+enabled = false
+api_key =
+app_key =
+host_tag =
