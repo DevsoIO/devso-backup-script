@@ -9,7 +9,7 @@ encryption_key =
 upload_prefix =
 
 [cloudflare_r2]
-api_endpoint = h
+api_endpoint = 
 access_key_id =
 secret_access_key =
 region_name =
